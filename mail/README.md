@@ -10,6 +10,7 @@
 - Aggiungere un input prompt per l'utente in cui dovrà inserire la mail;
 - Eseguire un ciclo for nell'array in modo da controllare ogni email;
 - verificare se l'email inserita dall'utente sia presente nell'elenco delle mail autorizzate.
+| Una volta trovata, interrompere il ciclo.
 
 ## Output
 Eseguire un output in console per i due casi:
