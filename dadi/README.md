@@ -1,8 +1,8 @@
 ### Esercizio Dadi
 
 ## Dati
-- Numero giocatore da 1 a 6 numeri random
-- Numero computer da 1 a 6 numeri random
+- Numero giocatore da 1 a 6 random;
+- Numero computer da 1 a 6 random.
 
 ## Esecuzione Logica
 Determinare il vincitore della partita a dadi in base al numero random ottenuto:
