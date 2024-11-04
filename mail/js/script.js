@@ -15,16 +15,19 @@ console.log(authorizedMails);
 
 // ESECUZIONE LOGICA
 
-for(let i = 0; i < authorizedMails.length; i++){
-    currentEmail = authorizedMails[i];
-    if(currentEmail === userMail){
-        authorized = true;
-        numIterazioni += 1;
-        break;
-    }
-    numIterazioni += 1;
-}
+if(userMail !== null && userMail !== ''){
 
+    for(let i = 0; i < authorizedMails.length; i++){
+        currentEmail = authorizedMails[i];
+        if(currentEmail === userMail){
+            authorized = true;
+            numIterazioni += 1;
+            break;
+        }
+        numIterazioni += 1;
+    }
+    
+}
 // OUTPUT
 
 if(authorized === true){
